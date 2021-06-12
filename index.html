@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COVID-19 Charity</title>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+
+	<<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+
+<script src="button.js"></script>
+
+
+
+<body>
+
+<!--Header-->
+    <header>
+        
+        <div class="head">Covid Relief Fund</div>
+
+        <nav>
+             <a href="#symptoms">Symptoms</a>
+             <a href="#precautions">Precautions</a>
+             <a href="#home">Home</a>
+        </nav>    
+    
+    </header>
+	
+
+<!---Home---->
+
+	<div class="home" id="home">
+		<div class="leftside">
+			<h3>COVID-19 AWARENESS</h3>
+			<h1>Stay Home. Stay Safe.</h1>
+			<p>Help people during this pandemic situation by donating money through our organisation.</p>
+			<form>
+			<button class="btn" onclick="payment()">Donate Us</button>
+		</form>
+		</div>
+		<div class="rightside">
+			<img src="images/peoplewithmask.png">
+		</div>
+	</div>
+
+<!---Stats--->
+
+	<div class="statistics">
+		<h1>Corona Virus Statistics</h1>
+	</div>
+
+
+
+	<div class="statistics_images">
+		<div class="card one"><img src="images/virus.png"><br><span id="num">14,112,077</span><br><br><span id="img_head">ACTIVE CASES</span><br></div>
+		<div class="card two"><img src="images/virus.png"><br><span id="num">595,685</span><br><br><span id="img_head">DEATH</span><br></div>
+		<div class="card three"><img src="images/virus.png"><br><span id="num">8,397,665</span><br><br><span id="img_head">RECOVERED CASES</span><br></div>
+	</div>
+
+<!----What's Corona?--->
+	<div class="corona">
+		<div class="leftside">
+			<img src="images/protection2.png">
+
+		</div>
+		<div class="rightside">
+			<h1>What is Corona Virus?</h1><br>
+			<p>Coronaviruses are a family of viruses that can cause respiratory illness in humans. They get their name, “corona,” from the many crown-like spikes on the surface of the virus. Severe acute respiratory syndrome (SARS), Middle East respiratory syndrome (MERS) and the common cold are examples of coronaviruses that cause illness in humans.The new strain of coronavirus, COVID-19, was first reported in Wuhan, China in December 2019. The virus has spread to all continents (except Antarctica)
+			</p>
+
+		</div>
+	</div>
+
+
+	<!---Prevention--->
+
+
+	<div class="prevention" id="precautions">
+		<div class="leftside">
+			<div class="partone">
+				<div class="card one"><div class="image"><img src="images/stay-at-home.png"></div><br><span class="title">Stay Home</span><br><p>Since COVID-19 is spreading faster,the people are advised to stay home.</p></div>
+				<div class="card two"><div class="image"><img src="images/social-distancing.png"></div><br><span class="title">Social Distance</span><br><p>Put 6 feet of distance between yourself and people who don’t live in your household.</p></div>
+			</div>
+			<div class="parttwo">	
+				<div class="card three"><div class="image"><img src="images/patient.png"></div><br><span class="title">Wear Facemask</span><br><p>Wear your mask over your nose and mouth and secure it under your chin.Make sure you can breathe easily.</p></div>
+				<div class="card four"><div class="image"><img src="images/hand-washing.png"></div><br><span class="title">Wash your hands</span><br><p>Wash your hands with soap or sanitizer for atleast 20sec after you have been in a public place</p></div>	
+			</div>			
+		</div>
+		<div class="rightside">
+			<h1>Precautions:</h1><br>
+			<p>Be alert for symptoms.Especially important if you are running essential errands, going into the office or workplace, and in settings where it may be difficult to keep a physical distance of 6 feet.Take your temperature if symptoms develop.Don’t take your temperature within 30 minutes of exercising or after taking medications that could lower your temperature, like acetaminophen.</p><br>
+			
+		</div>
+	</div>
+
+
+	<!---Protection--->
+
+
+		<div class="prohead"><h1>How to protect yourself</h1></div>
+
+	<div class="protect">
+		<div class="leftside">
+			<div class="do">
+				<p>You Should do</p>
+				<ul>
+					<li>Stay at home</li>
+   					<li>Wear mask</li>
+   					<li>Use Sanitizer</li>
+   					<li>Disinfect your home</li>
+   					<li>Wash your hands</li>
+   					<li>Frequent self-isolation</li>
+				</ul>
+			</div>
+			<div class="dont">
+				<p>You Should Avoid</p>
+				<ul>
+					<li>Avoid infected people</li>
+					<li>Avoid animals</li>
+					<li>Avoid handshaking</li>
+					<li>Aviod infected surfaces</li>
+					<li>Don't touch your face</li>
+					<li>Avoid droplets</li>
+				</ul>
+			</div>	
+		</div>
+		<div class="rightside">
+			<img src="images/covidprev.jpg">
+		</div>
+	</div>
+
+
+	<!---Symptoms---->
+
+	<div class="symhead" id="symptoms"><h1>Symptoms of Coronavirus</h1></div>
+
+	<div class="symptoms">
+		<div class="rowone">
+			<div class="card"><img src="images/high fever.png"><h3>HighFever</h3><p>A High Fever is when the body temperature rises above 103 fahrenheit in an adult(or 101 degrees Fahrenheit for child).</p></div>
+			<div class="card"><img src="images/cough2.png"><h3>Cough</h3><p>A sudden, forceful hacking sound to release air and clear an irritation in the throat or airway.</p></div>
+		</div>
+		<div class="rowtwo">
+			<div class="card"><img src="images/sore throat.png"><h3>SoreThroat</h3><p>Pain or irritation in the throat that can occur with or without swallowing,often accompanies infections,such as cold or flu.</p></div>
+			<div class="card"><img src="images/headache.png"><h3>Headache</h3><p>A painful sensation in any part of head, ranging from sharp to dull,that may occur with other symptoms.</p></div>	
+		</div>
+	</div>
+
+	<div class="end">
+		<h1>Waiting for your help</h1>
+		<p>We will help the needy and poor people in this pandemic by your donation.</p>
+
+		<button onclick="payment()">Donate Us</button>
+
+	</div>
+
+</body>
+</html>
